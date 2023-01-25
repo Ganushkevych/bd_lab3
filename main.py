@@ -97,7 +97,7 @@ with conn:
     bar1 = bar_ax.bar(x_range, Y, width = 0.5)
     bar_ax.set_title('Кількість випусків по різним видавництвам')
     bar_ax.set_xlabel('Випуск')
-    bar_ax.set_ylabel('Рейтинг')
+    bar_ax.set_ylabel('Видавництво')
     plt.show()
 
 
